@@ -58,29 +58,5 @@ public class Birthday {
         return this.birthday;
     }
 
-//    public static void main(String[] args) {
-//        List<Birthday> bdays = new ArrayList<>();
-//        Birthday b1 = new Birthday("1111-01-01");
-//        Birthday b2 = new Birthday("1111-01-11");
-//        Birthday b3 = new Birthday("2011-01-11");
-//        Birthday b4 = new Birthday("hello");
-//        bdays.add(b1);
-//        bdays.add(b2);
-//        bdays.add(b3);
-//        bdays.add(b4);
-//
-//
-//        String regex = "^[0-9]{4}-[01-12]{2}-[00-31]{2}$";
-//
-//        Pattern pattern = Pattern.compile(regex);
-//
-//
-//        for(Birthday b: bdays){
-//            Matcher matcher = pattern.matcher(b.birthday.toString());
-//            System.out.println(b.toString() +" : "+ matcher.matches());
-//        }
-//    }
-
-
 
 }
